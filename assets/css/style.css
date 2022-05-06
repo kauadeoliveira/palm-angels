@@ -7,8 +7,9 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    height: 200vh;
+    font-family: 'Lato', sans-serif;
 }
+
 
 header{
     background-color: rgb(255, 255, 255);
@@ -26,7 +27,6 @@ header{
 header ul{
     display: flex;
     list-style: none;
-    font-family: 'Lato', sans-serif;
     font-weight: 900;
 }
 
@@ -113,6 +113,8 @@ header ul li:hover{
 }
 
 .carousel{
+    height: 100vh;
+    align-items: center;
     display: flex;
     position: absolute;
     top: 0;
@@ -127,9 +129,9 @@ header ul li:hover{
 }
 
 .slide img{
+    height: 90vh;
     align-self: center;
     object-fit: cover;
-    height: 100%;
     cursor: pointer;
 }
 
@@ -154,16 +156,140 @@ header ul li:hover{
 button img{
     width: 25px;
 }
-
+.banner{
+    cursor: pointer;
+}
 #banner1{
-    font-size: 32px;
-    text-align: center;
+    cursor: pointer;
+    height: 618px;
 }
 
-#banner1 h2{
-    font-family: 'Lato', sans-serif;
+.text-banner1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
     position: relative;
-    top: 330px;
-    margin: 0;
-    color: rgb(255, 255, 255);
+    top: -360px;
+}
+
+#banner2{
+    position: relative;
+    bottom: 60px;
+    height: 580px;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 550px;
+    padding: 10px 0;
+}
+.left-column-footer{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.left-column-footer div{
+    width: 50%;
+}
+
+.left-column-footer ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.left-column-footer ul a:hover{
+    transition: 0.3s;
+    color: rgb(96, 96, 96);
+}
+.left-column-footer ul h3{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.left-column-footer ul li{
+    margin-top: 20px;
+}
+
+.left-column-footer ul{
+    margin-bottom: 5rem;
+    list-style: none;
+}
+
+
+
+.right-column-footer{
+    width: 45%;
+    height: 100%;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+    margin-bottom: 4px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.email-box{
+    font-weight: bold;
+    margin: 2rem 0;
+}
+.email-box p{
+    margin-bottom: 2px;
+}
+.email-box input{
+    box-sizing: border-box;
+    padding: 11px 8px 11px 6px;
+    background-color: transparent;
+    border:1px solid white;
+    width: 100%;
+}
+.email-box input:focus{
+    color: white;
+    border:1px solid white
+}
+
+.check-interesed{
+    display: flex;
+    align-items: center;
+}
+.check-interesed p{
+    margin: 2px;
+    font-weight: bold;
+}
+.check-interesed label{
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.check-interesed input{
+    cursor: pointer;
+}
+.termi-conditions a{
+    color: white;
+    font-weight: bold;
+    margin: 0 2px;
+}
+.termi-conditions a:nth-child(2){
+    margin-left: 0;
+}
+
+.signup{
+    padding: 11px 8px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid black;
+}
+.signup:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
 }

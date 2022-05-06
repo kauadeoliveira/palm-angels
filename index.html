@@ -12,7 +12,12 @@
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -51,9 +56,7 @@
 
         <div class="carousel" id="carousel">
             <div class="slide" data-bg="cbo021c">
-                <div class="slide-images">
-                     <img src="assets/images/roupa1.jpg" alt="">
-                </div>
+                <img src="assets/images/roupa1.jpg" alt="">
             </div>
 
             <div class="slide" data-bg="0D1BF4">
@@ -79,13 +82,94 @@
 
     </div>
 
-    <div id="banner1">
-            <h2>SS22 SUNGLASSES</h2>
+    <div id="banner1" class="banner">
         <img src="assets/images/palm-banner1.png" alt="">
     </div>
-    <div id="banner2">
+    <div class="text-banner1" ">
+        <h2 class="banner">SS22 SUNGLASSES </h2>
+    </div>
+
+    <div id="banner2" class="banner">
     <img src="assets/images/palm-banner2.png" alt="">
 </div>
+
+<footer>
+    <!-- LEFT COLUMN -->
+    <div class="left-column-footer">
+        <div class="customer-service">
+            <ul>
+                <h3>CUSTOMER SERVICE</h3>
+                <a id="ateste" href="#"><li>CONTACT US</li></a>
+                <a href="#"><li>SHIPPING & RETURNS</li></a>
+                <a href="#"><li>ORDERS & PAYMENTS</li></a>
+                <a href="#"><li>TERMS & CONDITIONS</li></a>
+                <a href="#"><li>PRIVACY POLICY</li></a>
+                <a href="#"><li>COOKIE PREFERENCES</li></a>
+                <a href="#"><li>FAQS</li></a>
+                <a href="#"><li>TRACK YOUR ORDER</li></a>
+                <a href="#"><li>RETURN YOUR ORDER</li></a>
+                <a href="#"><li>STORE LOCATOR</li></a>
+                <a href="#"><li>EYEWEAR CERTIFICATES</li></a>
+            </ul>
+
+            <ul>
+                <h3>DISCOVER PALM ANGELS</h3>
+                <a href="#">
+                    <li>ABOUT</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="country-currency">
+            <ul>
+                <h3>COUNTRY / CURRENCY:</h3>
+                <a href="#">
+                    <li>PORTUGAL / €</li>
+                </a>
+                <a href="#">
+                    <li>CHANGE</li>
+                </a>
+            </ul>
+            <ul>
+                FOLLOW US
+                <a href="#"><li>INSTAGRAM</li></a>
+                <a href="#"><li>WEIBO</li></a>
+                <a href="#"><li>WECHAT</li></a>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- RIGHT COLUMN -->
+    <div class="right-column-footer">
+        <div class="header-right-column">
+            <h3>NEWSLETTER SIGNUP</h3>
+            <p>DON'T MISS OUT ON THE LATEST NEWS, PRIVATE SALES AND EXCLUSIVE OFFERS.</p>
+        </div>
+        <div class="email-box">
+            <h3>EMAIL ADDRESS *</h3>
+            <input type="text" name="email">
+        </div>
+        <h3>ARE YOU INTERESTED IN:</h3>
+        <div class="check-interesed">
+            <input type="checkbox" name="womenswear" id="womenswear">
+            <label for="womenswear">WOMENSWEAR</label>
+            <input type="checkbox" name="menswear" id="menswear">
+            <label for="menswear">MENSWEAR</label>
+        </div>
+        <p class="termi-conditions">
+            BY REGISTERING YOU AGREE TO ACCEPT THE <a href="#">TERMS & CONDITIONS</a> AND HAVE READ THE <a href="#">PRIVACY POLICY</a>. <br>
+            OPT OUT AT ANY TIME BY CLICKING UNSUBSCRIBE AT THE BOTTOM OF ANY OF OUR EMAILS.
+        </p>
+        <button class="signup">
+            SIGN UP
+        </button>
+    </div>
+</footer>
+
+
+<!-- JS -->
     <script src="assets/js/main.js"></script>
 </body>
 </html>
